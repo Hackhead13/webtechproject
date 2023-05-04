@@ -1,0 +1,180 @@
+HTML : 
+            <a href="index.html">
+          <img src="logo.jpg" alt="logo" class="falcon" height="50px" width="50px"> 
+           </a>
+           <div class="top">
+          <p class="par"> 
+            <span><b>F</b></span>alcon<span><b>T</b></span>ravels.co
+            <br>
+            <hr class="hrow">
+            <img src="new-registration-icon.png" alt="icon" class="icon">
+          </p>
+        </div>
+
+
+
+ CSS : 
+        
+body
+{
+    background-color:lightgray;
+}
+.falcon
+{
+    display: inline;
+}
+.top
+{
+    display: inline;
+    position: relative;
+    margin-left: 65px;
+    left: 65px;
+    bottom: 65px
+}
+.par
+{
+    font-size: x-large;
+}
+.hrow
+{
+    margin-right: 100px;
+    height: 2px;
+}
+.icon
+{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+working code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon-32x32.png">
+    <title>Falcon Travels</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="topcontainer">
+      
+      <a href="index.html">
+        <img src="logo.jpg" alt="logo" class="falcon" height="50px" width="50px"> 
+         </a>
+         <a href="register.html">
+          <img src="new-registration-icon.png" alt="reg" class="regilogo" height="20px" width="20px" >
+          <h4 class="regitxt">Register</h4>
+         </a>
+         <a href="loginpg.html">
+          <img src="login-icon-3048-Windows.ico" alt="lgico" class="lgico">
+          <h4 class="lgtxt"> Login </h4>
+         </a>
+         
+    </div>  
+    <p class="txtname"> Falcon Travels </p>
+
+
+    body
+{
+    background-color:rgb(194, 249, 234);
+    margin: 0px;
+}
+.topcontainer
+{
+    background-color: hsl(62, 92%, 70%);
+    height: 75px;
+    width: 100%;
+    position:absolute;
+    display: block;
+    border-bottom: solid ;
+}
+.falcon
+{
+    margin-top: 13px;
+    margin-left: 60px;
+}
+.txtname
+{
+    display: inline-block;
+    position: relative ;
+    margin-left: 120px;
+    margin-top: 18px;
+    font-size: xx-large;
+}
+.regilogo
+{
+    position: absolute;
+    height: 20px;
+    aspect-ratio: auto 20 / 20;
+    width: 20px;
+    position: absolute;
+    right: 0px;
+    margin-right: 270px;
+    margin-top: 30px;
+    left: 1220px;
+}
+.regitxt
+{
+    display: inline-block;
+    position: absolute;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    margin-right: 225px;
+    margin-top: 30px;
+}
+.lgico{
+    position: absolute;
+    height: 20px;
+    aspect-ratio: auto 20 / 20;
+    width: 20px;
+    position: absolute;
+    right: 0px;
+    margin-right: 190px;
+    margin-top: 30px;
+    
+
+}
+.lgtxt
+{
+    display: inline-block;
+    position: absolute;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    margin-right: 145px;
+    margin-top: 30px;
+}
+display: inline-block;
+    position: relative ;
+    margin-left: 120px;
+    margin-top: 18px;
+    font-size: xx-large;
+
+        display: inline;
+    position: relative ;
+    margin-top: 25px;
+    font-size: xx-large;
+
+    background-color: hsl(62, 92%, 70%);
+    height: 75px;
+    width: 100%;
+    position:fixed;
+    margin-top: 0;
+    display: block;
+    border-bottom: solid ;
+
+    <a href="index.html">
+        <img src="logo.jpg" alt="logo" class="falcon" height="50px" width="50px"> 
+         </a>
+         <p class="txtname"> Falcon Travels </p>
+         <a href="register.html">
+          <img src="new-registration-icon.png" alt="reg" class="regilogo" height="20px" width="20px" >
+          <h4 class="regitxt">Register</h4>
+         </a>
+         <a href="loginpg.html">
+          <img src="login-icon-3048-Windows.ico" alt="lgico" class="lgico">
+          <h4 class="lgtxt"> Login </h4>
+         </a>      
+    </div> 

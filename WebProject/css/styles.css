@@ -1,0 +1,117 @@
+body
+{
+    background-color:rgb(255, 255, 255);
+    margin: 0px;
+}
+.topcontainer
+{
+    background: rgba(205, 248, 63, 0.9) ;
+    height: 70px;
+    width: 100%;
+    position:fixed ;
+    border-bottom: solid ;
+}
+.falcon
+{
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 7px;
+}
+.txtname
+{
+    display: inline;
+    position: absolute ;
+    margin-left:10px;
+    margin-top: 17px; 
+    font-size: xx-large;
+}
+.regilogo
+{
+    position:relative;
+    height: 20px;
+    aspect-ratio: auto 20 / 20;
+    width: 20px;
+    position: absolute;
+    margin-right: 290px;
+    margin-top: 30px;
+    left: 1205px;
+}
+.regitxt
+{
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    margin-right: 230px;
+    margin-top: 30px;
+}
+.lgico{
+    position: relative;
+    height: 20px;
+    aspect-ratio: auto 20 / 20;
+    width: 20px;
+    position: absolute;
+    right: 0px;
+    margin-right: 190px;
+    margin-top: 30px;
+    
+
+}
+.lgtxt
+{
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    margin-right: 145px;
+    margin-top: 30px;
+}
+.mnt{
+    width: 100%;
+    height: 25%;
+}
+.toppart{
+    display:flex;
+    gap: 20px;
+    margin: 80px 10px 10px 10px;
+    box-shadow: inset;
+}
+.test1
+{
+    background: rgb(254, 214, 214);
+    display:inline-flex;
+    margin-top: 30px; 
+    margin-right: 40px;
+    gap: 40px;
+    height: 300px;
+    width: 300px;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 2px;
+    box-shadow: black;
+}
+.test
+{
+    display:flex;
+    justify-content: center;
+   
+}
+.test2
+{
+    display: flex;
+    justify-content: center;
+    background: rgba(205, 248, 63, 0.4);
+}
+.Bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+    background: rgba(220,220,220,0.6);
+}
+
+
